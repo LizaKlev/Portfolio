@@ -3,7 +3,7 @@ import Indicator from "./Indicator";
 
 const About = () => {
   return (
-    <div className="flex w-full px-16 gap-10">
+    <div className="flex w-full gap-10">
       <div id="left box" className="w-1/2">
         <img className="mb-14 " src="/about_me.svg" alt="About me" />
         <span className="mt-14 montserrat-medium text-lg">

@@ -17,9 +17,8 @@ const Indicator = ({
           id="indicator"
           style={{
             width: `${width}%`,
-            backgroundColor: bgColor,
           }}
-          className={`h-full rounded-lg`}
+          className={`h-full rounded-lg ${bgColor}`}
         ></div>
       </div>
     </div>
