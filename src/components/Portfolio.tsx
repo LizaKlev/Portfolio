@@ -6,7 +6,7 @@ import Button from "./Button";
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>();
 
-  const categories = ["Case Study", "Web", "Mobile"];
+  const categories = ["All", "Case Study", "Web", "Mobile"];
   const projects = [
     {
       name: "Surv",
@@ -16,10 +16,15 @@ const Portfolio = () => {
     {
         name: "CRM",
         color: "bg-purple",
-        categories: ["Case Study"],
+        categories: ["Web","Case Study"],
+      },
+      {
+        name: "Omago",
+        color: "bg-pink",
+        categories: ["Mobile"],
       },
   ];
-  const selectedProjects = selectedCategory
+  const selectedProjects = selectedCategory && selectedCategory !== "All"
     ? projects.filter((p) => p.categories.includes(selectedCategory))
     : projects;
 
@@ -43,11 +48,11 @@ const Portfolio = () => {
         ))}
       </div>
 
-      <div className="flex gap-6 mt-7">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-7">
         {selectedProjects.map((p) => (
           <div
             key={p.name}
-            className={`${p.color} aspect-[4/3] w-1/2 rounded-xl border-black border-2 hover:shadow-[8px_6px_0_0_rgba(0,0,0,1)] hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200`}
+            className={`${p.color} aspect-[4/3] w-full rounded-xl border-black border-2 hover:shadow-[8px_6px_0_0_rgba(0,0,0,1)] hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200`}
           >
             <img className="" src="/surv.png" alt="Surv Project" />
             <span className="montserrat-black ml-9 text-4xl text-white text-stroke">
