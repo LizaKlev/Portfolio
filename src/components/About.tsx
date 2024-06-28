@@ -17,20 +17,20 @@ const About = () => {
         <img className="mb-14 h-8" src="/skills.svg" alt="Skills" />
         <div className="flex gap-8">
           <div className="gap-y-10 w-1/2">
-            <Indicator bgColor="bg-purple" name="Figma" w="w-11/12" />
-            <Indicator bgColor="bg-coral" name="Photoshop" w="w-11/12" />
+            <Indicator bgColor="bg-purple" name="Figma" width={90} />
+            <Indicator bgColor="bg-coral" name="Photoshop" width={90} />
             <Indicator
               bgColor="bg-bluish"
               name="Lightroom & DaVinci"
-              w="w-11/12"
+              width={90}
             />
-            <Indicator bgColor="bg-green" name="Illustrator" w="w-1/2" />
+            <Indicator bgColor="bg-green" name="Illustrator" width={60} />
           </div>
           <div className="gap-y-10 w-1/2">
-            <Indicator bgColor="bg-blue" name="React" w="w-3/4" />
-            <Indicator bgColor="bg-yellow" name="JavaScript" w="w-3/4" />
-            <Indicator bgColor="bg-pink" name="HTML" w="w-5/6" />
-            <Indicator bgColor="bg-orange" name="CSS" w="w-5/6" />
+            <Indicator bgColor="bg-blue" name="React" width={85} />
+            <Indicator bgColor="bg-yellow" name="JavaScript" width={85} />
+            <Indicator bgColor="bg-pink" name="HTML" width={90} />
+            <Indicator bgColor="bg-orange" name="CSS" width={90} />
           </div>
         </div>
       </div>
