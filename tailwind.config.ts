@@ -9,16 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        white: '#ffffff',
-        black: '#110F10',
-        green: '#319B56',
-        blue: '#31A8FF',
-        purple: '#6D569A',
-        pink: '#EA8698',
-        orange: '#F3702A',
-        yellow: '#F7B335',
-        coral: '#F5956C',
-        bluish: '#91A8EB',
+        beige: '#E6E4D5',
+        // white: '#ffffff',
+        // black: '#110F10',
+        // green: '#319B56',
+        // blue: '#31A8FF',
+        // purple: '#6D569A',
+        // pink: '#EA8698',
+        // orange: '#F3702A',
+        // yellow: '#F7B335',
+        // coral: '#F5956C',
+        // bluish: '#91A8EB',
 
       },
       

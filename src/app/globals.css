@@ -5,7 +5,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.gaegu-regular {
+
+/* .expletus-sans {
+  font-family: "Expletus Sans", sans-serif;
+  font-optical-sizing: 126;
+  font-weight: 700;
+  font-style: bold;
+} */
+
+
+/* .gaegu-regular {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .gaegu-regular {
   font-family: "Gaegu", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -49,8 +64,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-style: normal;
-}
+} */
 
 body {
   background-color: #000000;
 }
+
