@@ -3,8 +3,8 @@ import React from "react";
 const MyWorks = () => {
   return (
     <div>
-      <div className=" dark:bg-gray-800 h-full sm:py-8 lg:py-12">
-        <div className="mx-auto max-w-screen-2xl md:px-8">
+      <div className="h-full sm:py-8 lg:py-12">
+        <div className="mx-auto max-w-screen-2xl ">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             <a
               href="#"
